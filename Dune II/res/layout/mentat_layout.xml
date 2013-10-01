@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mentat_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <ImageView
+        android:id="@+id/mentat_image"
+        android:layout_width="320dip"
+        android:layout_height="200dip"
+        android:layout_alignTop="@+id/mentat_layout"
+        android:contentDescription="@string/mentat"
+        android:src="@drawable/mentat_mer" />
+
+    <ImageView
+        android:id="@+id/mentat_display"
+        android:layout_width="182dip"
+        android:layout_height="110dip"
+        android:layout_alignParentRight="false"
+        android:layout_alignRight="@id/mentat_image"
+        android:layout_alignTop="@id/mentat_image"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="49dp"
+        android:contentDescription="@string/selection_graphic"
+        android:src="@drawable/tank" />
+
+    <TextView
+        android:id="@+id/mentat_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_below="@id/mentat_image"
+        android:lines="5"
+        android:scrollbars="vertical"
+        android:text="@string/generic" />
+
+</RelativeLayout>

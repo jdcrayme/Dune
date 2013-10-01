@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/selection_panel"
+	    android:layout_width="210dip"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/main_layout"
+	    android:layout_alignLeft="@+id/main_layout"
+	    android:background="#0000FF"
+	    android:orientation="vertical"
+	    android:paddingBottom="5dp"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="5dp"
+	    android:paddingTop="5dp" >
+        
+		<TextView
+			android:id="@+id/selection_name"
+			android:layout_width="200dip"
+       		android:layout_height="wrap_content"
+       		android:text="@string/generic"
+       		android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<LinearLayout
+		    android:id="@+id/hz"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+				
+			<ImageView
+				android:id="@+id/selection_graphic"
+				android:layout_width="180dip"
+				android:layout_height="wrap_content"
+				android:src="@drawable/barracks"
+				android:contentDescription="@string/selection_graphic" />
+					
+			<ProgressBar
+	  			android:id="@+id/damage_bar"
+	  			android:layout_width="14dp"
+	  			android:layout_height="fill_parent"
+	        	android:layout_marginLeft="5dp"
+				android:layout_marginRight="5dp"
+				style="@style/Widget.ProgressBar.Vertical"/>
+		</LinearLayout>
+        
+		<LinearLayout
+			android:id="@+id/selection_panel_content"
+			android:layout_width="200dip"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+		</LinearLayout>   
+</LinearLayout>   
