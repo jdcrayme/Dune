@@ -3,7 +3,7 @@ Dune
 
 ####A recreation of the game Dune II for Android tablets
 
-Dune II was one of the very first real time strategy games ever created. The objective of this project was to examine how advances in development technology have changed the codding process by recreating one of the earliest examples of the genera.
+Dune II was one of the very first real time strategy games ever created. The objective of this project was to examine how advances in development technology have changed the codding process by recreating one of the earliest examples of the genre.
 
 ##Installation
 Requires AndEngine to be imported to the same workspace to compile. 
